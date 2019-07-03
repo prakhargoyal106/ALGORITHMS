@@ -1,0 +1,6 @@
+double gcd(double a, double b){
+        if(b<0.0001)
+          return a;
+        return(gcd(b, a-floor(a/b)*b))
+
+}
